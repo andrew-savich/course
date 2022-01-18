@@ -1,0 +1,134 @@
+1. Change your system, global, and repository config (add some values). Inspect how it is overridden.
+	exist three config level:
+		--system
+		--global
+		--local - (default level, if doesn't typed any level) 
+	change username and email globally:
+		git config --global user.name "Some Name"
+		git config --global user.email "some@email.com
+	
+	to specific configuration a current repository use this commands without "--local" (or without this argument)
+		
+2. Create an account on gitHub and connect to it with intellj  (Later we will use this account as your main account for training.)
+	done
+
+3. Make init commit. (you can add Readme.md file only)
+	to make a current folder for the version control:
+		git init
+	
+	to clone existing remote repository:
+		git clone https://github.com/andrew-savich/git-practice.git
+	
+	to clone existing remote repository to folder with name "custom-folder"
+		git clone https://github.com/andrew-savich/git-practice.git custom-folder
+
+4. Create develop branch. Check out on it.
+	git branch develop
+	git checkout develop
+
+5. Create txt file with 2 rows. Commit.
+	to add two created files:
+		git add first.txt
+		git add second.txt
+	or:
+		git add -A
+		git add .
+		git add *.txt
+	
+	commit:
+		git commit -m "Created two txt files"
+
+6. Create a branch with any name. Check out on it. Add to txt file 2 rows that rewrite the existings. Commit.
+	git branch somebranch
+	git checkout somebranch
+	or:
+		git checkout -b somebranch
+	
+	After "Add to txt file 2 rows that rewrite the existings":
+	git commit -m "Edited two rows on another branch"
+
+7. Create a second branch with any name. Check out on it. Add to txt file 2 rows that rewrite the existings. Commit.
+	git branch secondsomebranch
+	git checkout secondsomebranch
+	git commit -m "Rewrited two existing rows"
+
+8. Go to develop branch.
+	git checkout develop
+
+9. Merge two new branches into development using git merge command.
+	git checkout develop
+	git merge somebranch
+	git merge secondsomebranch
+	
+10. Don’t delete two new branches!
+
+	to show list of all local branches ('-r' for remote, '-v' for show last commit)
+	git branch
+	
+	delete branch:
+	git branch -d main
+	
+
+11. Merge develop into master
+	git merge develop
+
+
+12. Try to inspect your repository with git log command. Use different options with this command (git log --help)
+	done
+
+13. Push all your changes with all your branches to remote repository.
+	git push origin master
+	git push origin develop
+	git push origin somebranch
+	git push origin secondsomebranch
+	
+
+14. Moves to one of the custom brunches. Re-make 2-3 commits to supplement the file.
+	done
+
+15. Try to revert to the state before commits like this:
+	git revert 90c174d0a0ddc9970350087b336d93ff212a83c8
+	- with saving the changes (after you go to the beginning and save the files, back up the files in the following ways:
+		-- patch
+		-- shelve)
+	git format-patch -1
+		
+	- without saving changes
+	
+
+16. try renaming your branch
+	1st way: 
+		rename localy:
+		git branch -m main master
+	
+		after rename on the remote host (github), have to get latest commits and branches from the remote:
+		git fetch origin
+	
+		new tracking connection with the new origin/master branch
+		git branch -u origin/master master
+
+	2nd way:
+		git branch --move old-branch-name new-branch-name
+		git push --set-upstream origin new-branch-name
+		git push origin --delete old-branch-name
+
+17. re-commit 2-3 commits and try to rebase it to another custom branch (see the result in the commit history)
+	git checkout -b rebasebranch
+	git rebase somebranch
+
+18. (read what is the difference between merge and rebase and in what situations we need to use what)
+	
+	merge vs rebase: https://habr.com/ru/post/432420/
+	https://ru.stackoverflow.com/questions/1174810/%D0%92-%D1%87%D0%B5%D0%BC-%D1%80%D0%B0%D0%B7%D0%BD%D0%B8%D1%86%D0%B0-%D0%BC%D0%B5%D0%B6%D0%B4%D1%83-git-rebase-%D0%B8-git-merge
+
+19. re-commit 2-3 commits and try to take the changes made by one commit (middle one) and tries to reapply them as a new commit on the current branch.
+	git rebase -i HEAD~2
+	git add second.txt 
+	git commit --amend
+	git rebase --continue
+
+20. create a folder named ignored and add any file there. Make it so that the git doesn't want to commit any files that are in this folder
+	
+	created file '.gitignore' with text:
+	"ignored/" - git will ignore all files and sub-folders from "ignored" folder
+	
