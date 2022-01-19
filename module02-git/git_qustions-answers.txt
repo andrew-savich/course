@@ -131,4 +131,34 @@
 	
 	created file '.gitignore' with text:
 	"ignored/" - git will ignore all files and sub-folders from "ignored" folder
+
+
+*basics:
+
+	git init - initial git repository in hte current folder
 	
+	git add <name.file> - add <name.file> to staging area
+	git add . - add everything from directory to staging area
+	git add -A - --same--
+	git add *.html - add all html files to staging area
+	
+	git reset <file.name> - remove <file.name> from staging area
+	git rm --cached <name.file.> - remove <file.name> from area and add to ignore files
+
+	git commit -m "Commit message" - commit snapshot of files from staging area
+
+	git branch <branch-name> - create a branch with <branch-name>
+	git checkout <branch-name> - switch to another branch (<branch-name>)
+	git branch - list of branches
+	git merge <branch-name> - merge all commits from <branch-name> to current switched branch
+	
+	git remote add origin <URL to remote repository> - connect remote repository to local repository
+	git remote - list of all connected remote repositories
+	
+	git push -u origin master - send changes to remote repository
+	
+	git clone <URL to remote repository> - get project from remote repository
+	
+	git pull - download the last version from remote repository and update local repository
+	
+
