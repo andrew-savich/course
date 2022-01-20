@@ -2,7 +2,7 @@
 Система контроля версий (Version Control System) - это система отслеживающая 
 и регистрирующая изменения в файле иил наборе файлов для возможности в дальнейшем отката
 к этим изменениям.<br>
-VCS: RCS, CVS, Subversion, Aegis, Monoton, Git, Bazaar, Arch, Perforce, Mercurial, TFS
+VCS: RCS, CVS, Subversion, Aegis, Monoton, Git, Bazaar, Arch, Perforce, Mercurial, TFS<br>
 <a href="http://all-ht.ru/inf/prog/p_0_1.html">Обзор систем контроля версий</a><br>
 <a href="https://www.examclouds.com/ru/java/java-core-russian/vcs">Системы контроля версий</a>
 </details>
