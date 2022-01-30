@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/course.iml" filepath="$PROJECT_DIR$/.idea/course.iml" />
+      <module fileurl="file://$PROJECT_DIR$/course.iml" filepath="$PROJECT_DIR$/course.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GIT/git.iml" filepath="$PROJECT_DIR$/GIT/git.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Maven/maven.iml" filepath="$PROJECT_DIR$/Maven/maven.iml" />
     </modules>
   </component>
 </project>
