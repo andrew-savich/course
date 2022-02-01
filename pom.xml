@@ -12,7 +12,13 @@
     <modules>
         <module>maven</module>
         <module>git</module>
+        <module>JavaCore</module>
     </modules>
+
+    <properties>
+        <maven.compiler.source>15</maven.compiler.source>
+        <maven.compiler.target>15</maven.compiler.target>
+    </properties>
 
     <dependencies>
         <dependency>
@@ -26,5 +32,7 @@
             <version>2.17.1</version>
         </dependency>
     </dependencies>
+
+
     
 </project>
