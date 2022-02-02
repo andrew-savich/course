@@ -1,4 +1,4 @@
-package com.epam.task2.divisions;
+package com.epam.practice.task2.divisions;
 
 public abstract class MilitaryHeadquarters {
     public abstract String calculateLocation();

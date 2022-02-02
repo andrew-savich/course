@@ -1,7 +1,7 @@
-package com.epam.task1;
+package com.epam.practice.task1;
 
-import com.epam.task1.transfers.ValueTransferMethod;
-import com.epam.task1.transfers.ValueTransferObject;
+import com.epam.practice.task1.transfers.ValueTransferMethod;
+import com.epam.practice.task1.transfers.ValueTransferObject;
 
 public class MainRunner {
     public static void main(String[] args) {

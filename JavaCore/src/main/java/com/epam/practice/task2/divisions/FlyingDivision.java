@@ -1,9 +1,9 @@
-package com.epam.task2.divisions;
+package com.epam.practice.task2.divisions;
 
-public class InfantryDivision extends MilitaryHeadquarters {
+public class FlyingDivision extends MilitaryHeadquarters{
     private String name;
 
-    public InfantryDivision(String name) {
+    public FlyingDivision(String name){
         this.name = name;
     }
 

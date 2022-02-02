@@ -1,4 +1,4 @@
-package com.epam.task1.transfers;
+package com.epam.practice.task1.transfers;
 
 public class ValueTransferObject {
     public Integer someInteger = 0;

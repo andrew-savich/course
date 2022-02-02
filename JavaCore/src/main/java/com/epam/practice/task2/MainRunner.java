@@ -1,8 +1,8 @@
-package com.epam.task2;
+package com.epam.practice.task2;
 
-import com.epam.task2.divisions.FlyingDivision;
-import com.epam.task2.divisions.InfantryDivision;
-import com.epam.task2.divisions.MilitaryHeadquarters;
+import com.epam.practice.task2.divisions.FlyingDivision;
+import com.epam.practice.task2.divisions.InfantryDivision;
+import com.epam.practice.task2.divisions.MilitaryHeadquarters;
 
 import java.util.ArrayList;
 import java.util.List;
