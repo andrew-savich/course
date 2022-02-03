@@ -1,6 +1,6 @@
 package com.epam.theory.interfaces;
 
-//может наследоваться более чем от одного интерфейса, в отличаи от классов
+//может наследоваться более чем от одного интерфейса, в отличие от классов
 public interface Example extends FirstSome, SecondSome, ThirdSome {
     //неявно является с модификаторами public, static и final
     int SOME_FIELD = 666;
