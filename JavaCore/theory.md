@@ -176,12 +176,24 @@
         <li><b>wait(), notify(), notifyAll()</b> - три метода из набора для многопоточности</li>
         <li><b>getClass()</b> - получить класс объекта во время выполнения. В основном используется для рефлексии</li>
     </ul>
-    
 </details>
 
 <details><summary>java.lang.Class</summary>
-
+    <p>В запущенной программе Java каждому классу соответствует объект типа Class. Этот объект содержит информацию,
+    необходимую для описания класса – поля, методы, реализуемые интерфейсы.</p>
+    <p>Класс Class не имеет открытого конструктора – объекты этого класса создаются автоматически Java-машиной по мере загрузки классов</p>
+    <ul><b>Class</b> есть у:
+        <li>классов, интерфейсов, перечислений</li>
+        <li>примитивов и обёрток над ними</li>
+        <li>массивов</li>   
+        <li>void</li>
+    </ul>
+    <ul><b>Методы:</b>
+        <li><b>getDeclaredFields()</b> - возвращает все объявленные переменные в классе</li>
+        <li><b>getDeclaredField(String fieldName)</b> - возвращает переменную по её имени. Если переменной с таким именем нет, то метод выбросит checked NoSuchFieldException.</li>
+        <li><b>getFields()</b> - возвращает только public переменные</li>
+        <li><b>getField(String fieldName)</b> - возвращает только public переменные. Даже если поле с таким именем есть, но оно не публичное, метод getField() бросит NoSuchFieldException</li>
+        <li><b>getDeclaredFields()</b> - </li>
+    </ul>
+    <a href="https://java-online.ru/java-lang.xhtml#class" >Пакет java.lang</a>
 </details>
-
-Object.class (Почему важно понимать что такое hashcode и equals)
-Class.class
