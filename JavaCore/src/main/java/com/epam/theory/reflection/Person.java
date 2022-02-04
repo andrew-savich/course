@@ -12,6 +12,7 @@ class Person {
     public int getAge() {
         return age;
     }
+
     public void setAge(int age) {
         this.age = age;
     }
@@ -20,7 +21,7 @@ class Person {
         return name;
     }
 
-    private void printData(){
+    private void printData() {
         System.out.println("Person name: " + name + ", age: " + age);
     }
 }

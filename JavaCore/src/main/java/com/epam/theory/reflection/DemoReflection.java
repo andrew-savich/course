@@ -11,7 +11,7 @@ class DemoReflection {
         //изменение значение private поля, которое не имеет setter'a:
 
         try {
-            Field personNameField  = person.getClass().getDeclaredField("name");
+            Field personNameField = person.getClass().getDeclaredField("name");
             personNameField.setAccessible(true);
             personNameField.set(person, "Andrew");
         } catch (NoSuchFieldException | IllegalAccessException e) {
