@@ -193,7 +193,8 @@
         <li><b>getDeclaredField(String fieldName)</b> - возвращает переменную по её имени. Если переменной с таким именем нет, то метод выбросит checked NoSuchFieldException.</li>
         <li><b>getFields()</b> - возвращает только public переменные</li>
         <li><b>getField(String fieldName)</b> - возвращает только public переменные. Даже если поле с таким именем есть, но оно не публичное, метод getField() бросит NoSuchFieldException</li>
-        <li><b>getDeclaredFields()</b> - </li>
+        <li><b>getDeclaredMethods(), getDeclaredMethod(), getMethods(), getMethod()</b> - для методов по аналогии как с полями</li>
+        <li><b>getEnclosingMethod()</b> - Если класс является локальным или анонимным, метод getEnclosingMethod() возвращает тот метод в котором этот класс был создан, иначе метод возвращает null</li>
     </ul>
     <a href="https://java-online.ru/java-lang.xhtml#class" >Пакет java.lang</a>
 </details>
