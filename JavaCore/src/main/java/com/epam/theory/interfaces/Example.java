@@ -6,7 +6,7 @@ public interface Example extends FirstSome, SecondSome, ThirdSome {
     int SOME_FIELD = 666;
 
     //статическое поле
-    static int staticField = 333;
+    int staticField = 333;
 
     //закрытый метод, может использоваться внутри интерфейса в методах по умолчанию
     private void privateMethod() {
