@@ -1,5 +1,5 @@
 package com.epam.theory.nested.inner.anonymous;
 
-public abstract interface Worker {
+public interface Worker {
     void doWork();
 }

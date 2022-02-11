@@ -1,5 +1,7 @@
 package com.epam.theory.nested.inner.inner;
 
+import com.epam.theory.nested.staticnested.Developer;
+
 public class DemoInnerClass {
     public static void main(String[] args) {
         Lock firstLock = new Lock();
