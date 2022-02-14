@@ -13,6 +13,7 @@
         <module>maven</module>
         <module>git</module>
         <module>JavaCore</module>
+        <module>Exceptions</module>
     </modules>
 
     <properties>
