@@ -3,7 +3,7 @@ package com.epam.theory.nested.staticnested;
 /*
 /Nested static classes have access to all static fields from
 outer class, however with "private" modifier
-Outer class doesn't have access to fields from nested class
+Outer class doesn't have straight access to fields from nested class
  */
 public class Developer {
     private String name;
