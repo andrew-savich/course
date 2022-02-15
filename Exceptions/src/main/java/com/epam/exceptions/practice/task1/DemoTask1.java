@@ -2,7 +2,7 @@ package com.epam.exceptions.practice.task1;
 
 import com.epam.exceptions.practice.task1.exception.MyCheckedException;
 
-public class DemoRun {
+public class DemoTask1 {
     public static void main(String[] args) {
         String pathToFile = "c:\\someFile.txt";
         char existingSymbol = 'a';
