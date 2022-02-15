@@ -4,6 +4,6 @@ public class DemoTask3 {
     public static void main(String[] args) {
         Thread.setDefaultUncaughtExceptionHandler(new RuntimeExceptionHandler());
 
-        System.out.println(1/0);
+        throw new RuntimeException();
     }
 }
