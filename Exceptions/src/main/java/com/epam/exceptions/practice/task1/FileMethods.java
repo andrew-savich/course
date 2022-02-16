@@ -12,10 +12,9 @@ public class FileMethods {
     private String getFirstLineFromFile(String pathToFile) {
         String firstLine = "";
 
-        try {
-            FileReader file = new FileReader(pathToFile);
-            BufferedReader reader = new BufferedReader(file);
+        try(FileReader file = new FileReader(pathToFile); BufferedReader reader = new BufferedReader(file)) {
             firstLine = reader.readLine();
+
         } catch (IOException e) {
             e.printStackTrace();
         }
