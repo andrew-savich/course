@@ -14,5 +14,7 @@ public class DemoTryWithResources {
         try (ResourcesClass resource2 = new ResourcesClass()) {
             resource2.doSomething();
         }
+
+
     }
 }
