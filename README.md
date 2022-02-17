@@ -11,3 +11,8 @@ Module #4 Java Core
 - [теория](https://github.com/andrew-savich/course/blob/master/JavaCore/theory.md)
 - [теория (code)](https://github.com/andrew-savich/course/tree/master/JavaCore/src/main/java/com/epam/theory)
 - [практика](https://github.com/andrew-savich/course/tree/master/JavaCore/src/main/java/com/epam/practice)
+
+Module #5 Exception
+- [теория](https://github.com/andrew-savich/course/blob/master/Exceptions/theory.md)
+- [теория (code)](https://github.com/andrew-savich/course/tree/master/Exceptions/src/main/java/com/epam/exceptions/theory)
+- [практика](https://github.com/andrew-savich/course/tree/master/Exceptions/src/main/java/com/epam/exceptions/practice)
