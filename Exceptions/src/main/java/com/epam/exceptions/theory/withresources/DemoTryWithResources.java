@@ -15,6 +15,5 @@ public class DemoTryWithResources {
             resource2.doSomething();
         }
 
-
     }
 }
