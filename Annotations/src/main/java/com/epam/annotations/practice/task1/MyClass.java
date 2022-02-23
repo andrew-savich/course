@@ -4,9 +4,11 @@ public class MyClass {
 
     @Greeting
     void firstMethod() {
+        System.out.println("The first method");
     }
 
-    @Greeting(value = "Hello the second method")
+    @Greeting(value = "Hello from the second method")
     void secondMethod() {
+        System.out.println("The second method");
     }
 }
