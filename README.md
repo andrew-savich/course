@@ -16,3 +16,8 @@ Module #5 Exception
 - [теория](https://github.com/andrew-savich/course/blob/master/Exceptions/theory.md)
 - [теория (code)](https://github.com/andrew-savich/course/tree/master/Exceptions/src/main/java/com/epam/exceptions/theory)
 - [практика](https://github.com/andrew-savich/course/tree/master/Exceptions/src/main/java/com/epam/exceptions/practice)
+
+Module #6 Annotations
+- [теория](https://github.com/andrew-savich/course/blob/master/Annotations/theory.md)
+- [теория (code)](https://github.com/andrew-savich/course/tree/master/Annotations/src/main/java/com/epam/annotations/theory)
+- [практика](https://github.com/andrew-savich/course/tree/master/Annotations/src/main/java/com/epam/annotations/practice/task1)
