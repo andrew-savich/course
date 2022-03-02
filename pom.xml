@@ -15,6 +15,7 @@
         <module>JavaCore</module>
         <module>Exceptions</module>
         <module>Annotations</module>
+        <module>Generics</module>
     </modules>
 
     <properties>
