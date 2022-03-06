@@ -9,4 +9,8 @@ public class GenericClass<T, S extends Number> implements GenericInterface<Strin
     public String someMethod1(Long arg) {
         return "Some returning string";
     }
+
+    public T someMethod2(){
+        return (T) new Object();
+    }
 }
