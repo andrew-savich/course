@@ -88,5 +88,34 @@ public class Tasks {
         System.out.println("ints: " + nonGenericClass.accumLongs(integers));
         System.out.println("longs: " + nonGenericClass.accumLongs(longs));
 
+        //Implement a generic method with a method parameter of lower bounded wildcard type List<? super Integer>
+        //that uses the method List.add to insert int elements to list;
+        //call the method with arguments of parameterized types List<Integer>, List<Number>, List<Object> (peCS: consumer - super)
+        List<Integer> integers2 = new ArrayList<>();
+        List<Number> numbers2 = new ArrayList<>();
+        List<Objects> objects2 = new ArrayList<>();
+
+        objNonGenericClass.insertFixedValuesToList(integers2);
+        objNonGenericClass.insertFixedValuesToList(numbers2);
+        //objNonGenericClass.insertFixedValuesToList(objects2); - cannot be converted to java.util.List<? super java.lang.Integer>
+
+        System.out.println(integers2);
+        System.out.println(numbers2);
+
     }
+
+    //Show that impossible to use the instanceof operator with parameterized types
+    public <T> void impossibleinstanceof(T someObject) {
+//        if(someObject instanceof T){ - java: illegal generic type for instanceof
+//            System.out.println("true");
+//        } else {
+//            System.out.println("false");
+//        }
+    }
+
+
+    //Show that impossible to overload a method where the formal parameter types of each overload erase to the same raw type
+    // public void display(List<String> list) {} -have the same erasure
+    public void display(List<Integer> list) {}
+
 }
