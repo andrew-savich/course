@@ -39,12 +39,12 @@ public class Tasks {
         //of generic type parameter List<T>, that uses the method Number.longValue to find the sum of the
         //list elements to an accumulator of type long;
         //call the method with arguments of parameterized types List<Integer>, List<Long>
-        NonGenericClass objNonGenericClass = new NonGenericClass();
+        GenericService service = new GenericService();
         List<Integer> integers = Arrays.asList(1, 3, 4, 5, 6, 7, 8, 9);
         List<Long> longs = Arrays.asList(1L, 3L, 4L, 5L, 6L, 7L, 8L, 9L);
 
-        System.out.println("sum of integers: " + objNonGenericClass.sumOfList(integers));
-        System.out.println("sum of longs: " + objNonGenericClass.sumOfList(longs));
+        System.out.println("sum of integers: " + service.sumOfList(integers));
+        System.out.println("sum of longs: " + service.sumOfList(longs));
 
 
         //Assign object of type ArrayList<Integer> to reference of type List<Integer>
@@ -71,22 +71,22 @@ public class Tasks {
         //that uses the method System.out.println to print list elements;
         //call the method with an argument of parameterized type List<Object>
         List<Object> objects = Arrays.asList(new Object(), new Object(), new Object());
-        objNonGenericClass.printObjectElements(objects);
+        service.printObjectElements(objects);
 
         //Implement a generic method with a method parameter of unbounded wildcard type List<?>,
         //that uses the method System.out.println to print list elements;
         //call the method with arguments of parameterized types List<Object>, List<Integer>, List<Double>
         List<Double> doubles = Arrays.asList(1.0, 2.0, 3.0, 4.0, 5.0);
 
-        objNonGenericClass.printUnknownElements(objects);
-        objNonGenericClass.printUnknownElements(integers);
-        objNonGenericClass.printUnknownElements(doubles);
+        service.printUnknownElements(objects);
+        service.printUnknownElements(integers);
+        service.printUnknownElements(doubles);
 
         //Implement a generic method with a method parameter of upper bounded wildcard type List<? extends Number>,
         //that uses the method Number.longValue to find the sum of the list elements to an accumulator of type long;
         //call the method with arguments of parameterized types List<Integer>, List<Long> (PEcs: producer - extends)
-        System.out.println("ints: " + nonGenericClass.accumLongs(integers));
-        System.out.println("longs: " + nonGenericClass.accumLongs(longs));
+        System.out.println("ints: " + service.accumLongs(integers));
+        System.out.println("longs: " + service.accumLongs(longs));
 
         //Implement a generic method with a method parameter of lower bounded wildcard type List<? super Integer>
         //that uses the method List.add to insert int elements to list;
@@ -95,8 +95,8 @@ public class Tasks {
         List<Number> numbers2 = new ArrayList<>();
         List<Objects> objects2 = new ArrayList<>();
 
-        objNonGenericClass.insertFixedValuesToList(integers2);
-        objNonGenericClass.insertFixedValuesToList(numbers2);
+        service.insertFixedValuesToList(integers2);
+        service.insertFixedValuesToList(numbers2);
         //objNonGenericClass.insertFixedValuesToList(objects2); - cannot be converted to java.util.List<? super java.lang.Integer>
 
         System.out.println(integers2);
