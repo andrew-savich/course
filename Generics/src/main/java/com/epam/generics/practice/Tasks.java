@@ -4,6 +4,8 @@ import java.util.*;
 
 public class Tasks {
     public static void main(String[] args) {
+        Integer field = testMethod(1);
+
         //Create an object of parameterized type List<Integer>, add Integer to it and get Integer from it
         List<Integer> ints = new ArrayList<>();
         ints.add(333);
@@ -116,6 +118,12 @@ public class Tasks {
 
     //Show that impossible to overload a method where the formal parameter types of each overload erase to the same raw type
     // public void display(List<String> list) {} -have the same erasure
-    public void display(List<Integer> list) {}
+    public void display(List<Integer> list) {
+    }
+
+    public static <T extends Number> T testMethod(T var) {
+        T ins = var;
+        return ins;
+    }
 
 }

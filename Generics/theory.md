@@ -21,12 +21,7 @@
     <ul>
         <li><b>класс</b>: class&lt;T, S extends Number&gt; {}</li>
         <li><b>interface</b>: interface&lt;T, S extends Number&gt; {}</li>
-        <li><b>методы</b>
-            <ul>
-                <li> T someMethod() {return (T) new Object();} - в обобщенном классе</li>
-                <li> &lt;T&gt; T someMethod() {return (T) new Object();} - в обычном классе</li>
-            </ul>
-           </li>
+        <li><b>методы</b> - &lt;T&gt; T someMethod() {return (T) new Object();}</li>
         <li><b>поле</b>: T someField; - предварительно объявив класс обобщенным</li>
     </ul>
 </details>
@@ -89,5 +84,21 @@
 </details>
 
 <details><summary>Могут ли инициализироваться объекты generic типа в generic методе?</summary>
-    <p>Да, можно</p>
+    <p>В классическом виде нет, но с использованием рефлексии - да</p>
+</details>
+
+<details><summary>Можно ли объявить несколько параметров ограниченного типа?</summary>
+    <p>&lt;T extends MyClass & MyInterface1 & MyInterface2&gt;</p>
+</details>
+
+<details><summary>Diamond Operator | Алмазный оператор | Ромбовидный оператор</summary>
+    <p><b>&lt;&gt;</b> - Он появился в Java с версии 7. Его применяют к конструкторам дженерик классов, чтобы отличать 
+    требование автоматического вывода типа от raw type</p>
+    <p><b>Вывод типа</b> - это способность компилятора догадаться, какой тип нужно подставить, и сделать это за нас</p>
+</details>
+
+<details><summary>Когда бы вы предпочли использовать вайлдкард с нижней границей по сравнению с типом с верхней границей?</summary>
+    <p>Случай с методом который копирует элементы из одной стр. данных в другую: copy(src, dest):<br>
+    для параметра src - нужно использовать ? extends, тк src выступает как producer и он нам даёт данные<br>
+    для dest - ? super - тк dest использует то что дает src</p>
 </details>
