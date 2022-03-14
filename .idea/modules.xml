@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Annotations/Annotations.iml" filepath="$PROJECT_DIR$/Annotations/Annotations.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Collection1/Collection1.iml" filepath="$PROJECT_DIR$/Collection1/Collection1.iml" />
       <module fileurl="file://$PROJECT_DIR$/Exceptions/Exceptions.iml" filepath="$PROJECT_DIR$/Exceptions/Exceptions.iml" />
       <module fileurl="file://$PROJECT_DIR$/Generics/Generics.iml" filepath="$PROJECT_DIR$/Generics/Generics.iml" />
       <module fileurl="file://$PROJECT_DIR$/course.iml" filepath="$PROJECT_DIR$/course.iml" />
