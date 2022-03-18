@@ -16,7 +16,7 @@
 
 <details><summary>Интерфейс Collection?</summary>
     <p>Это обобщенный интерфейс служит основанием, на котором построен весь каркас коллекций, поскольку он должен быть реализован всеми классами коллекций.</p>
-    <p>Collection расширяет интерфейс Iterable. Это означает, что все коллекции можно перебирать, организовав цикл for bach</p>
+    <p>Collection расширяет интерфейс Iterable. Это означает, что все коллекции можно перебирать, организовав цикл for each</p>
     <p>В интерфейсе Collection определяются основные методы, которые должны иметь все коллекции:<br>
     add, addAll, clear, contains, containsAll, equals, hashCode, isEmpty, iterator, remove, removeAll, retainAll, size, stream, toArray</p>
 </details>
