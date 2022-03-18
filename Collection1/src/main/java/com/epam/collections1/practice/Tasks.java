@@ -135,5 +135,21 @@ public class Tasks {
         for (Movie movie : movies) {
             System.out.println(movie);
         }
+
+        //Immutable
+        List<Integer> simpleList = new ArrayList<>();
+        simpleList.add(1);
+        simpleList.add(2);
+        simpleList.add(3);
+        simpleList.add(4);
+        simpleList.add(5);
+        simpleList.add(6);
+
+        List<Integer> unmodifiableList = Collections.unmodifiableList(simpleList);
+
+        simpleList.add(7);
+
+        System.out.println(unmodifiableList); // - "7" will be in the unmodifiableList
+
     }
 }
