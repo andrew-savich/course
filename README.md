@@ -26,3 +26,7 @@ Module #7 Generics
 - [теория](https://github.com/andrew-savich/course/blob/master/Generics/theory.md)
 - [теория (code)](https://github.com/andrew-savich/course/tree/master/Generics/src/main/java/com/epam/generics/theory)
 - [практика](https://github.com/andrew-savich/course/tree/master/Generics/src/main/java/com/epam/generics/practice)
+
+Module #8 Collections pt.1
+- [теория](https://github.com/andrew-savich/course/blob/master/Collection1/theory.md)
+- [практика](https://github.com/andrew-savich/course/tree/master/Collection1/src/main/java/com/epam/collections1/practice)
