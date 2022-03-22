@@ -26,7 +26,8 @@
     <p>Удаление констант. Малоемкие операции, выполняющиеся за константное время (объявление переменной и тд) - опускаются</p>
     <p>Предоставление переменных с разными именами для отдельных входных данных</p>
     <p>Отбрасывание всех терминов, которые не являются доминирующими в вашем алгоритме</p>
-    <a href="https://dev.to/coderjay06/four-rules-for-big-o-1915">Four Rules for Big O</a>
+    <a href="https://dev.to/coderjay06/four-rules-for-big-o-1915">Four Rules for Big O</a> <br>
+    <img src="https://habrastorage.org/r/w1560/files/364/d7e/419/364d7e41907e453b8e60128cdac459dc.png">
 </details>
 
 <details><summary>Способы перебора коллекций?</summary>

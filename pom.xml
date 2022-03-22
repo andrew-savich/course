@@ -17,6 +17,7 @@
         <module>Annotations</module>
         <module>Generics</module>
         <module>Collection1</module>
+        <module>Collection2</module>
     </modules>
 
     <properties>
