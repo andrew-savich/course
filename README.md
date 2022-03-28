@@ -30,3 +30,7 @@ Module #7 Generics
 Module #8 Collections pt.1
 - [теория](https://github.com/andrew-savich/course/blob/master/Collection1/theory.md)
 - [практика](https://github.com/andrew-savich/course/tree/master/Collection1/src/main/java/com/epam/collections1/practice)
+
+Module #9 Collections pt.2
+- [теория](https://github.com/andrew-savich/course/blob/master/Collection2/theory.md)
+- [практика](https://github.com/andrew-savich/course/blob/master/Collection2/src/main/java/com/epam/collections2/practice/Tasks.java)
