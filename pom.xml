@@ -16,8 +16,9 @@
         <module>Exceptions</module>
         <module>Annotations</module>
         <module>Generics</module>
-        <module>Collection1</module>
-        <module>Collection2</module>
+        <module>Collections1</module>
+        <module>Collections2</module>
+        <module>Collections3</module>
     </modules>
 
     <properties>
