@@ -35,6 +35,6 @@ Module #9 Collections pt.2
 - [теория](https://github.com/andrew-savich/course/blob/master/Collections2/theory.md)
 - [практика](https://github.com/andrew-savich/course/blob/master/Collection2/src/main/java/com/epam/collections2/practice/Tasks.java)
 
-Module # Collections pt.3
+Module #10 Collections pt.3
 - [теория](https://github.com/andrew-savich/course/blob/master/Collections3/theory.md)
 - [практика](https://github.com/andrew-savich/course/blob/master/Collections3/src/main/java/com/epam/collections3/practice/Tasks.java)
