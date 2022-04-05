@@ -168,8 +168,6 @@ public class Tasks {
         myKey.setName(myKey.getName() + " edited");
 
         System.out.println("getting value from mpa by edited myKey: " + map1.get(myKey)); // null
-
-
     }
 }
 

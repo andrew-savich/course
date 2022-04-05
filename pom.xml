@@ -19,6 +19,7 @@
         <module>Collections1</module>
         <module>Collections2</module>
         <module>Collections3</module>
+        <module>Memory</module>
     </modules>
 
     <properties>

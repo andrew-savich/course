@@ -4,10 +4,11 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Annotations/Annotations.iml" filepath="$PROJECT_DIR$/Annotations/Annotations.iml" />
       <module fileurl="file://$PROJECT_DIR$/Collection1/Collections1.iml" filepath="$PROJECT_DIR$/Collection1/Collections1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Collection2/Collections2.iml" filepath="$PROJECT_DIR$/Collection2/Collections2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Collections2/Collections2.iml" filepath="$PROJECT_DIR$/Collections2/Collections2.iml" />
       <module fileurl="file://$PROJECT_DIR$/Collections3/Collections3.iml" filepath="$PROJECT_DIR$/Collections3/Collections3.iml" />
       <module fileurl="file://$PROJECT_DIR$/Exceptions/Exceptions.iml" filepath="$PROJECT_DIR$/Exceptions/Exceptions.iml" />
       <module fileurl="file://$PROJECT_DIR$/Generics/Generics.iml" filepath="$PROJECT_DIR$/Generics/Generics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Memory/Memory.iml" filepath="$PROJECT_DIR$/Memory/Memory.iml" />
       <module fileurl="file://$PROJECT_DIR$/course.iml" filepath="$PROJECT_DIR$/course.iml" />
       <module fileurl="file://$PROJECT_DIR$/GIT/git.iml" filepath="$PROJECT_DIR$/GIT/git.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaCore/java-core.iml" filepath="$PROJECT_DIR$/JavaCore/java-core.iml" />
