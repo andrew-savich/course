@@ -38,3 +38,7 @@ Module #9 Collections pt.2
 Module #10 Collections pt.3
 - [теория](https://github.com/andrew-savich/course/blob/master/Collections3/theory.md)
 - [практика](https://github.com/andrew-savich/course/blob/master/Collections3/src/main/java/com/epam/collections3/practice/Tasks.java)
+
+Module #11 Java Memory Model
+- [теория](https://github.com/andrew-savich/course/blob/master/Memory/theory.md)
+
