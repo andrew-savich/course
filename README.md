@@ -42,3 +42,6 @@ Module #10 Collections pt.3
 Module #11 Java Memory Model
 - [теория](https://github.com/andrew-savich/course/blob/master/Memory/theory.md)
 
+Module #12 Streams
+- [теория](https://github.com/andrew-savich/course/blob/master/Streams/theory.md)
+
