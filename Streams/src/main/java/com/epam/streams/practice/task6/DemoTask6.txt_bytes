@@ -1,0 +1,4 @@
+Most of the examples we've seen so far use unbuffered I/O.
+This means each read or write request is handled directly by the underlying OS.
+This can make a program much less efficient, since each such request often triggers disk access,
+network activity, or some other operation that is relatively expensive

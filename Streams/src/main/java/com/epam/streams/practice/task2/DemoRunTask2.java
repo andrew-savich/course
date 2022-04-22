@@ -8,7 +8,7 @@ import java.util.List;
 //заполнялась дефолтными значениями (изменив правила дессериализации)
 public class DemoRunTask2 {
     public static void main(String[] args) {
-        String filePathname = "Streams\\employee.txt";
+        String filePathname = "Streams/employee.txt";
         EmployeeService employeeService = new EmployeeService();
 
         Employee employee1 = new Employee(1, "Andrew", 31, "qwerty", "00000");

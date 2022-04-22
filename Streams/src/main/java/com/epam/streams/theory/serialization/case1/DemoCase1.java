@@ -2,6 +2,8 @@ package com.epam.streams.theory.serialization.case1;
 
 import java.io.*;
 
+//1) Базовый имплементит серириалазбл, а потомок нет, и при этом серилиализуем базовый (внутри объекта которого
+// обязательно содержится объект потомка) (посмотреть что восстановиться)
 public class DemoCase1 {
     public static void main(String[] args) {
         String filePath = "Streams/parent1.txt";
@@ -13,18 +15,14 @@ public class DemoCase1 {
 
         Parent restoredParent;
 
-        try(ObjectOutputStream out = new ObjectOutputStream(new FileOutputStream(filePath));
-            ObjectInputStream in = new ObjectInputStream(new FileInputStream(filePath))) {
+        try (ObjectOutputStream out = new ObjectOutputStream(new FileOutputStream(filePath));
+             ObjectInputStream in = new ObjectInputStream(new FileInputStream(filePath))) {
             out.writeObject(parent);
 
             restoredParent = (Parent) in.readObject();
 
             System.out.println("restoredParent: " + restoredParent); //restoredParent: Parent{parentId=333, child=Child{childId=666}}
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
-        } catch (IOException e) {
-            e.printStackTrace();
-        } catch (ClassNotFoundException e) {
+        } catch (ClassNotFoundException | IOException e) {
             e.printStackTrace();
         }
 
