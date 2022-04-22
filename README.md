@@ -44,4 +44,5 @@ Module #11 Java Memory Model
 
 Module #12 Streams
 - [теория](https://github.com/andrew-savich/course/blob/master/Streams/theory.md)
+- [практика](https://github.com/andrew-savich/course/tree/master/Streams/src/main/java/com/epam/streams)
 
