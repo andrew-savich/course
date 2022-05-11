@@ -214,6 +214,7 @@
     </ol>
 </details>
 <details><summary>Каналы</summary>
+    <a href="https://github.com/andrew-savich/course/blob/master/Streams/src/main/java/com/epam/streams/theory/nio/BasicChannelExample.java">Пример чтения данных из FileChannel в буфер</a><br>
     <p>Все операции ввода-вывода начинаются с каналов. Из канала информация может быть прочитана в буфер или записана из буфера в канал</p>
     <p>В Java канал представлен интерфейсом <b>Channel</b> и имеет ряд основных реализаций:</p>
     <ul>
@@ -342,6 +343,7 @@
 </details>
 <details><summary>NIO Selectors</summary>
     <a href="https://javascopes.com/java-nio-selector-53c17d2f/">Введение в селектор Java NIO</a><br>
+    <a href="https://github.com/andrew-savich/course/tree/master/Streams/src/main/java/com/epam/streams/theory/nio/selectors">Пример сервер-клиент на NIO</a><br>
     <p><b>Селекторы</b> обеспечивают механизм для мониторинга одного или нескольких каналов и распознавания когда эти каналы доступны для передачи данных</p>
     <p>Таким образом, один поток может управлять несколькими каналами и, следовательно, например несколькими сетевыми соединениями</p>
     <p>Используя только один поток мы можем работать с несколькими каналами, переключаясь между ними, тк использование нескольких потоков, более "энергозатратно" для ОС
