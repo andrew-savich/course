@@ -1,6 +1,11 @@
 package com.epam.streams.practice.task2;
 
-import java.io.*;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
 
 public class EmployeeService {
     public void simpleSerializeObjectToFile(Employee employee, String filePathName) {

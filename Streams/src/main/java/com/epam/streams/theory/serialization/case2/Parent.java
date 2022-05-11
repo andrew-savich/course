@@ -2,7 +2,7 @@ package com.epam.streams.theory.serialization.case2;
 
 import java.io.Serializable;
 
-public class Parent {
+public class Parent{
     private Integer parentId;
 
     static int staticField = 1;

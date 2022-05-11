@@ -28,3 +28,6 @@ public class DemoCase1 {
 
     }
 }
+//вывод:
+//parent: Parent{parentId=333, child=Child{childId=666}}
+//restoredParent: Parent{parentId=333, child=Child{childId=666}}
