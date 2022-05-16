@@ -46,3 +46,7 @@ Module #12 Streams
 - [теория](https://github.com/andrew-savich/course/blob/master/Streams/theory.md)
 - [практика](https://github.com/andrew-savich/course/tree/master/Streams/src/main/java/com/epam/streams)
 
+Module #13 Multithreading
+- [теория](https://github.com/andrew-savich/course/blob/master/Multithreading/theory.md)
+- [практика]()
+
