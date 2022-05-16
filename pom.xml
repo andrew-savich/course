@@ -21,6 +21,7 @@
         <module>Collections3</module>
         <module>Memory</module>
         <module>Streams</module>
+        <module>Multithreading</module>
     </modules>
 
     <properties>
