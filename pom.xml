@@ -21,6 +21,7 @@
         <module>Memory</module>
         <module>Streams</module>
         <module>Multithreading</module>
+        <module>Collections1</module>
     </modules>
 
     <properties>
