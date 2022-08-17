@@ -49,5 +49,9 @@ Module #12 Streams
 Module #13 Multithreading
 - [theory](https://github.com/andrew-savich/course/blob/master/Multithreading/theory.md)
 - [theory (code)](https://github.com/andrew-savich/course/tree/master/Multithreading/src/main/java/com/epam/multithreading/theory)
-- [practice]()
+- [practice](https://github.com/andrew-savich/course/tree/master/Multithreading/src/main/java/com/epam/multithreading/practice)
+
+Module #14 Locks & Atomics
+- [theory](https://github.com/andrew-savich/course/blob/master/LocksAtomics/theory.md) 
+
 
