@@ -22,6 +22,7 @@
         <module>Streams</module>
         <module>Multithreading</module>
         <module>Collections1</module>
+        <module>LocksAtomics</module>
     </modules>
 
     <properties>
