@@ -52,6 +52,12 @@ Module #13 Multithreading
 - [practice](https://github.com/andrew-savich/course/tree/master/Multithreading/src/main/java/com/epam/multithreading/practice)
 
 Module #14 Locks & Atomics
-- [theory](https://github.com/andrew-savich/course/blob/master/LocksAtomics/theory.md) 
+- [theory](https://github.com/andrew-savich/course/blob/master/LocksAtomics/theory.md)
+
+Module #15 ClasLoader
+- [theory](https://github.com/andrew-savich/course/blob/master/ClassLoader/theory.md)
+
+Module #16 JMX
+- [theory](https://github.com/andrew-savich/course/blob/master/JMX/theory.md)
 
 
