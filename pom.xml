@@ -23,6 +23,8 @@
         <module>Multithreading</module>
         <module>Collections1</module>
         <module>LocksAtomics</module>
+        <module>ClassLoader</module>
+        <module>JMX</module>
     </modules>
 
     <properties>
