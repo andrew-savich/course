@@ -25,6 +25,7 @@
         <module>LocksAtomics</module>
         <module>ClassLoader</module>
         <module>JMX</module>
+        <module>Revision2</module>
     </modules>
 
     <properties>
