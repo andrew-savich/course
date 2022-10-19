@@ -26,6 +26,7 @@
         <module>ClassLoader</module>
         <module>JMX</module>
         <module>Revision2</module>
+        <module>Java8</module>
     </modules>
 
     <properties>

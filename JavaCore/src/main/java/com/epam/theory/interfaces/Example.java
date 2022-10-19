@@ -9,9 +9,9 @@ public interface Example extends FirstSome, SecondSome, ThirdSome {
     int staticField = 333;
 
     //закрытый метод, может использоваться внутри интерфейса в методах по умолчанию
-    private void privateMethod() {
-        //some code
-    }
+//    private void privateMethod() {
+//        //some code
+//    }
 
     //Метод по умолчанию
     default void defaultMethod() {

@@ -28,5 +28,6 @@ public class DemoAnonymousClass {
         //System.out.println(someField); - no access to field from anonymous class
 
         anonymousOneTimeWorker.doWork();
+        anonymousOneTimeWorker.doWork();
     }
 }
