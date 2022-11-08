@@ -63,7 +63,9 @@ Module #16 JMX
 Revision2 Question
 - [QA](https://github.com/andrew-savich/course/blob/master/Revision2/questions.md)
 
-Module #17 Jфмф 8
+Module #17 Java 8
 - [theory](https://github.com/andrew-savich/course/blob/master/Java8/theory.md)
 
+Module #18 Testing
+- [theory](https://github.com/andrew-savich/course/blob/master/Testing/theory.md)
 
