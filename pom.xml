@@ -27,6 +27,12 @@
         <module>JMX</module>
         <module>Revision2</module>
         <module>Java8</module>
+        <module>HttpRest</module>
+        <module>AgileScrum</module>
+        <module>Java9</module>
+        <module>Java10</module>
+        <module>Java11</module>
+        <module>Java17</module>
     </modules>
 
     <properties>

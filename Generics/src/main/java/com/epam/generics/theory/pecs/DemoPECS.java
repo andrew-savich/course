@@ -6,8 +6,8 @@ public class DemoPECS {
     public void producer(List<? extends Class1> list) {
         Class0 obj0 = list.get(0);
         Class1 obj1 = list.get(0);
-//        Class2 obj2 = list.get(0); //не скомпилируется так как мы пытаемся сделать: Class2 obj1 = new Class1();
-//        Class3 obj3 = list.get(0); //не скомпилируется так как мы пытаемся сделать: Class3 obj1 = new Class1();
+//        Class2 obj2 = list.get(0); //не скомпилируется так как мы пытаемся сделать: Class2 obj2 = new Class1();
+//        Class3 obj3 = list.get(0); //не скомпилируется так как мы пытаемся сделать: Class3 obj3 = new Class1();
 //
 //        list.add(new Class0());
 //        list.add(new Class1());
