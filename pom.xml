@@ -33,6 +33,8 @@
         <module>Java10</module>
         <module>Java11</module>
         <module>Java17</module>
+        <module>Spring</module>
+        <module>Hibernate</module>
     </modules>
 
     <properties>
